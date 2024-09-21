@@ -3,11 +3,11 @@
 title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Aram Sargsyan
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Aram
+last_name: Sargsyan
 
 # Status emoji
 status:
@@ -142,12 +142,12 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: Russian
     percent: 100
-  - name: Chinese
+  - name: Armenain
+    percent: 100
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
