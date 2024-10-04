@@ -1,23 +1,22 @@
 ---
-title: 'An example conference paper'
+title: 'Сравнительный анализ алгоритмов активного управленияочередью семейства RED в средстве моделирования сетей NS-2'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Aram Sargsyan
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-10-04T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-03-20T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +24,15 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *Information and Telecommunication Technologies and Mathematical Modeling of High-Tech Systems 2024*
+publication_short: In *ITTM*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Network routers use queue management algorithms to ensure a high level of Quality of Service (QoS). This ensures efficient allocation of network bandwidth and meets user requirements for data transfer speeds and reliability. Various control algorithms have been used to date. Within the scope of this work, we have conducted a performance analysis of Random Early Detection (RED), including its various modifications, through complex modeling. Our analysis includes a comparison to other queue management techniques using criteria such as queue length, latency, variability of latency, and window sizing for TCP protocol types such as Reno and Vegas. The use of simulation based analysis on the NS-2 simulator allows us to accurately evaluate the performance and efficacy of various RED algorithm settings and implementations. We modified the source code of the NS-2 simulator to conduct simulation‐based analyses. 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Network Models
 
 # Display this page in the Featured widget?
 featured: true
