@@ -33,18 +33,20 @@ profiles:
   - icon: at-symbol
     url: 'agsargsyanos@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: academicons/mendeley
+    url: https://www.mendeley.com/search/
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Aram-Sargsyan
   - icon: brands/github
     url: https://github.com/agsargsyan
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/social-linking
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=sk3KmrMAAAAJ&hl=ru
+  - icon: academicons/arxiv
+    url: https://arxiv.org/
+
+  
 
 interests:
   - Artificial Intelligence

@@ -540,6 +540,7 @@
     "ids": [
       "about-me",
       "basic-syntax",
+      "basic-workflow-for-adding-citations-in-markdown",
       "benefits-of-cicd",
       "benefits-of-markdown",
       "code",
@@ -550,7 +551,9 @@
       "extended-features",
       "hide-button",
       "inline-images",
+      "key-tools-for-bibliography-management-with-markdown",
       "markdown-a-lightweight-markup-language-for-formatting-text",
+      "markdown-and-bibliography-management",
       "math",
       "moon",
       "nav-menu",
@@ -583,7 +586,8 @@
       "test-students",
       "top",
       "video",
-      "what-is-markdown"
+      "what-is-markdown",
+      "working-with-bibliography-in-markdown-a-simple-guide-for-researchers"
     ]
   }
 }
