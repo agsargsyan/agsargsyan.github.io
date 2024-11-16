@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | ARAM</title>
+    <link>http://localhost:1313/ru/post/</link>
+      <atom:link href="http://localhost:1313/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru</language><lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Blog</title>
+      <link>http://localhost:1313/ru/post/</link>
+    </image>
+    
+    <item>
+      <title>Working with Bibliography in Markdown</title>
+      <link>http://localhost:1313/ru/post/bibliography/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/post/bibliography/</guid>
+      <description>&lt;h2 id=&#34;working-with-bibliography-in-markdown-a-simple-guide-for-researchers&#34;&gt;Working with Bibliography in Markdown: A Simple Guide for Researchers&lt;/h2&gt;
+&lt;p&gt;In academic writing and research, managing citations and bibliographies is crucial. Markdown, a lightweight markup language, offers an easy-to-read, plain-text format that can also handle bibliographic references effectively when combined with certain tools. Here, we&amp;rsquo;ll explore how Markdown can be used to organize citations, format bibliographies, and work with reference management software.&lt;/p&gt;
+&lt;h3 id=&#34;markdown-and-bibliography-management&#34;&gt;Markdown and Bibliography Management&lt;/h3&gt;
+&lt;p&gt;While Markdown itself doesn&amp;rsquo;t have built-in features for handling citations or bibliographies, it can be integrated with tools like 
+, 
+, and 
+ to create a smooth workflow for referencing in academic documents. These tools convert Markdown to other formats (like PDF or DOCX) while automatically including formatted citations and bibliographies.&lt;/p&gt;
+&lt;h3 id=&#34;key-tools-for-bibliography-management-with-markdown&#34;&gt;Key Tools for Bibliography Management with Markdown&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pandoc&lt;/strong&gt;: Pandoc is a document converter that can transform Markdown files into various formats (HTML, PDF, DOCX, etc.). With Pandoc, you can add bibliographic data from a &lt;code&gt;.bib&lt;/code&gt; file to your Markdown document.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zotero&lt;/strong&gt;: Zotero is a free reference manager that stores and organizes your research sources. It can export citations in a &lt;code&gt;.bib&lt;/code&gt; format compatible with Pandoc and Markdown.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;BibTeX&lt;/strong&gt;: BibTeX is a tool and format for managing bibliographic data, commonly used with LaTeX. It’s also compatible with Markdown when using Pandoc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;basic-workflow-for-adding-citations-in-markdown&#34;&gt;Basic Workflow for Adding Citations in Markdown&lt;/h3&gt;
+&lt;p&gt;To add citations in Markdown using Pandoc and BibTeX:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a Bibliography File&lt;/strong&gt;: Use Zotero or another reference manager to export your bibliography as a &lt;code&gt;.bib&lt;/code&gt; file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Format Citations in Markdown&lt;/strong&gt;: In your Markdown text, you can cite a source by including &lt;code&gt;[@citation-key]&lt;/code&gt;, where &lt;code&gt;citation-key&lt;/code&gt; corresponds to the key in your &lt;code&gt;.bib&lt;/code&gt; file. For example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Markdown is a popular markup language used in various fields [@gruber2004].
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/ru/post/markdown/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/post/markdown/</guid>
+      <description>&lt;h2 id=&#34;markdown-a-lightweight-markup-language-for-formatting-text&#34;&gt;Markdown: A Lightweight Markup Language for Formatting Text&lt;/h2&gt;
+&lt;p&gt;Markdown is a lightweight markup language that enables users to write using an easy-to-read, plain-text format that can be converted to HTML or other formats. It has become a popular tool for documentation, writing, and content creation in various fields, especially in software development due to its simplicity and flexibility.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h3&gt;
+&lt;p&gt;Markdown is designed to be simple enough for users to focus on writing content rather than worrying about syntax. It was created by John Gruber in 2004 with the goal of allowing text to be written in a format that is both human-readable and easy to convert to HTML for web display.&lt;/p&gt;
+&lt;p&gt;Markdown files use the &lt;code&gt;.md&lt;/code&gt; or &lt;code&gt;.markdown&lt;/code&gt; extension and can be written in any plain-text editor. The syntax allows users to format text for headers, lists, emphasis, links, and more, without relying on complex HTML tags.&lt;/p&gt;
+&lt;h3 id=&#34;basic-syntax&#34;&gt;Basic Syntax&lt;/h3&gt;
+&lt;p&gt;Markdown&amp;rsquo;s syntax is easy to learn and intuitive. Here are some commonly used formatting features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Headings&lt;/strong&gt;: You can create headings by prefixing the text with one or more &lt;code&gt;#&lt;/code&gt; symbols.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Emphasis&lt;/strong&gt;: To italicize text, wrap it in asterisks or underscores (&lt;code&gt;*italic*&lt;/code&gt; or &lt;code&gt;_italic_&lt;/code&gt;).
+For bold text, use double asterisks or underscores (&lt;code&gt;**bold**&lt;/code&gt; or &lt;code&gt;__bold__&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Lists&lt;/strong&gt;: Markdown supports both ordered and unordered lists. Use &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;+&lt;/code&gt;, or &lt;code&gt;*&lt;/code&gt; for unordered lists, and numbers followed by a period (&lt;code&gt;1.&lt;/code&gt;, &lt;code&gt;2.&lt;/code&gt;, etc.)
+for ordered lists.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Images&lt;/strong&gt;: Similar to links, images are embedded using the &lt;code&gt;![alt text](URL)&lt;/code&gt; format.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;extended-features&#34;&gt;Extended Features&lt;/h3&gt;
+&lt;p&gt;While the basic syntax of Markdown is sufficient for most use cases, some variations or implementations of Markdown extend its capabilities to include&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tables&lt;/strong&gt;: You can create tables by using pipes (&lt;code&gt;|&lt;/code&gt;) to separate columns and hyphens (&lt;code&gt;-&lt;/code&gt;) to define the header row.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code Blocks&lt;/strong&gt;: To insert inline code, use backticks around the code (&lt;code&gt;\&lt;/code&gt;code``). For multi-line code blocks, use triple backticks or indent the lines with four spaces:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;hello_world&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;():&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, world!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;benefits-of-markdown&#34;&gt;Benefits of Markdown&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplicity: Markdown&amp;rsquo;s straightforward syntax makes it accessible even to non-technical users, allowing them to write and format content without extensive knowledge of markup languages.&lt;/li&gt;
+&lt;li&gt;Portability: Markdown files are plain text, making them easy to store, edit, and transfer across systems.&lt;/li&gt;
+&lt;li&gt;Flexibility: Markdown can be converted into various formats, such as HTML, PDF, or DOCX, making it highly versatile for different use cases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By adopting Markdown, writers, developers, and content creators can streamline their workflow, reduce distractions caused by complex formatting, and focus on crafting high-quality content. Its broad support in tools like GitHub, Jupyter Notebooks, and documentation platforms further cements its position as a go-to solution for text formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Continuous Integration and Continuous Deployment (CI/CD)</title>
+      <link>http://localhost:1313/ru/post/ci-cd/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/post/ci-cd/</guid>
+      <description>&lt;h2 id=&#34;continuous-integration-and-continuous-deployment-cicd&#34;&gt;Continuous Integration and Continuous Deployment (CI/CD)&lt;/h2&gt;
+&lt;p&gt;In modern software development, Continuous Integration (CI) and Continuous Deployment/Delivery (CD) are critical practices, particularly within DevOps.
+These methodologies automate various stages of development, enabling faster and more reliable product releases by reducing the risk of errors.&lt;/p&gt;
+&lt;h3 id=&#34;continuous-integration-ci&#34;&gt;Continuous Integration (CI)&lt;/h3&gt;
+&lt;p&gt;Continuous Integration is a practice where developers frequently merge their code changes into a shared repository, often several times a day.
+The key objective of CI is to catch and resolve bugs early, especially those that arise when multiple developers&amp;rsquo; changes interact.&lt;/p&gt;
+&lt;p&gt;CI relies on automated tests, which run after each commit to ensure that new changes don’t break the codebase. If the tests pass, the changes are merged into the main branch, helping to maintain a stable and functional project state.
+Popular CI tools include Jenkins, GitLab CI, and Travis CI.&lt;/p&gt;
+&lt;h3 id=&#34;continuous-deployment-cd&#34;&gt;Continuous Deployment (CD)&lt;/h3&gt;
+&lt;p&gt;Continuous Deployment and Continuous Delivery build on CI but with different levels of automation in the release process:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Continuous Delivery&lt;/strong&gt; ensures that after CI, the code is automatically prepared for release into production,
+but a manual review or approval step is still required before deployment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Continuous Deployment&lt;/strong&gt; fully automates this process, automatically pushing code into production after all
+testing phases are successfully completed, allowing for quicker releases without human intervention.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;benefits-of-cicd&#34;&gt;Benefits of CI/CD&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Early bug detection and conflict resolution.&lt;/li&gt;
+&lt;li&gt;Faster delivery of new features and fixes.&lt;/li&gt;
+&lt;li&gt;Reduced time to market.&lt;/li&gt;
+&lt;li&gt;Improved software stability and quality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By integrating CI/CD into their workflows, teams can adapt more swiftly to changing requirements and release updates with minimal risk,
+making these practices a standard in today&amp;rsquo;s fast-paced development environment.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

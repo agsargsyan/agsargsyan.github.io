@@ -5,12 +5,50 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Blog</title>
       <link>http://localhost:1313/post/</link>
     </image>
+    
+    <item>
+      <title>Working with Bibliography in Markdown</title>
+      <link>http://localhost:1313/post/bibliography/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/bibliography/</guid>
+      <description>&lt;h2 id=&#34;working-with-bibliography-in-markdown-a-simple-guide-for-researchers&#34;&gt;Working with Bibliography in Markdown: A Simple Guide for Researchers&lt;/h2&gt;
+&lt;p&gt;In academic writing and research, managing citations and bibliographies is crucial. Markdown, a lightweight markup language, offers an easy-to-read, plain-text format that can also handle bibliographic references effectively when combined with certain tools. Here, we&amp;rsquo;ll explore how Markdown can be used to organize citations, format bibliographies, and work with reference management software.&lt;/p&gt;
+&lt;h3 id=&#34;markdown-and-bibliography-management&#34;&gt;Markdown and Bibliography Management&lt;/h3&gt;
+&lt;p&gt;While Markdown itself doesn&amp;rsquo;t have built-in features for handling citations or bibliographies, it can be integrated with tools like 
+, 
+, and 
+ to create a smooth workflow for referencing in academic documents. These tools convert Markdown to other formats (like PDF or DOCX) while automatically including formatted citations and bibliographies.&lt;/p&gt;
+&lt;h3 id=&#34;key-tools-for-bibliography-management-with-markdown&#34;&gt;Key Tools for Bibliography Management with Markdown&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pandoc&lt;/strong&gt;: Pandoc is a document converter that can transform Markdown files into various formats (HTML, PDF, DOCX, etc.). With Pandoc, you can add bibliographic data from a &lt;code&gt;.bib&lt;/code&gt; file to your Markdown document.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zotero&lt;/strong&gt;: Zotero is a free reference manager that stores and organizes your research sources. It can export citations in a &lt;code&gt;.bib&lt;/code&gt; format compatible with Pandoc and Markdown.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;BibTeX&lt;/strong&gt;: BibTeX is a tool and format for managing bibliographic data, commonly used with LaTeX. It’s also compatible with Markdown when using Pandoc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;basic-workflow-for-adding-citations-in-markdown&#34;&gt;Basic Workflow for Adding Citations in Markdown&lt;/h3&gt;
+&lt;p&gt;To add citations in Markdown using Pandoc and BibTeX:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a Bibliography File&lt;/strong&gt;: Use Zotero or another reference manager to export your bibliography as a &lt;code&gt;.bib&lt;/code&gt; file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Format Citations in Markdown&lt;/strong&gt;: In your Markdown text, you can cite a source by including &lt;code&gt;[@citation-key]&lt;/code&gt;, where &lt;code&gt;citation-key&lt;/code&gt; corresponds to the key in your &lt;code&gt;.bib&lt;/code&gt; file. For example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Markdown is a popular markup language used in various fields [@gruber2004].
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Markdown</title>
